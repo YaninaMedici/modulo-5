@@ -1,0 +1,18 @@
+.card-image:hover img{
+    transform: scale(1.3); /* agranda la imagen cuando pasamos por arriba */
+    transition-duration: .8s; /* se va a agrandando y achicando de a poquito */
+    cursor: pointer; /* va a aparecer una manito como cursor */
+    filter: grayscale(90%); /* lo va a poner en blanco y negro */
+}
+
+.card-image{
+    overflow: hidden;
+}
+
+.card:hover{
+    box-shadow: 14px 20px 22px -2px rgba(0,0,0,0.66);
+
+}
+
+
+
